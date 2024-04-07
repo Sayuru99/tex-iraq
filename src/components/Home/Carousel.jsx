@@ -4,10 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import img1 from "../../assets/homefront.webp";
-import img2 from "../../assets/specs.webp";
+import img2 from "../../assets/consult.jpg";
 import img3 from "../../assets/slide-6.jpg";
 import img4 from "../../assets/vitro-626x425_0.png";
-import img5 from "../../assets/heroimg-5.png";
+import img5 from "../../assets/tech.jpg";
 import logo1 from "../../assets/rhea_logo.png";
 import logo2 from "../../assets/azkoyen_logo.svg";
 import logo3 from "../../assets/caprimo_logo.png";

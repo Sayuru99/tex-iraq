@@ -3,5 +3,15 @@
 @tailwind utilities;
 
 body{
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Reddit Mono", monospace;
+    font-weight: 500 !important;
 }
