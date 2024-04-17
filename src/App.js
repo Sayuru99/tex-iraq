@@ -3,6 +3,9 @@ import Home from "./pages/Home";
 import BrandDetails from "./components/ServiceBrands/BrandDetails";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Services from "./pages/Services";
 
 function App() {
   return (
@@ -12,11 +15,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services/:brandName" element={<BrandDetails />} />
+          <Route path="/services" element={<Services/>} />
           {/* <Route path="/corporations" component={Corporations} />
-          <Route path="/brands" component={Brands} />
-          <Route path="/news-events" component={NewsEvents} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} /> */}
+          
+        <Route path="/news-events" component={NewsEvents} /> */}
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} /> 
         </Routes>
         <Footer />
       </Router>

@@ -99,23 +99,24 @@ function Navbar() {
               <Link to="/" className="my-2 text-gray-600 hover:text-gray-900">
                 Home
               </Link>
-              <Link
+              {/* <Link
                 to="/corporations"
                 className="my-2 text-gray-600 hover:text-gray-900"
               >
                 Corporations
               </Link>
-              <Link
-                to="/brands"
-                className="my-2 text-gray-600 hover:text-gray-900"
-              >
-                Brands
-              </Link>
+              
               <Link
                 to="/news-events"
                 className="my-2 text-gray-600 hover:text-gray-900"
               >
                 News and Events
+              </Link> */}
+              <Link
+                to="/services"
+                className="my-2 text-gray-600 hover:text-gray-900"
+              >
+                Services
               </Link>
               <Link
                 to="/about"
