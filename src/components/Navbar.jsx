@@ -137,21 +137,21 @@ function Navbar() {
             <Link to="/" className="text-gray-600 hover:text-gray-900">
               Home
             </Link>
-            <Link
+            {/* <Link
               to="/corporations"
               className="text-gray-600 hover:text-gray-900"
             >
               Corporations
+            </Link> */}
+            <Link to="/services" className="text-gray-600 hover:text-gray-900">
+              Services
             </Link>
-            <Link to="/brands" className="text-gray-600 hover:text-gray-900">
-              Brands
-            </Link>
-            <Link
+            {/* <Link
               to="/news-events"
               className="text-gray-600 hover:text-gray-900"
             >
               News and Events
-            </Link>
+            </Link> */}
             <Link to="/about" className="text-gray-600 hover:text-gray-900">
               About Us
             </Link>
